@@ -15,9 +15,13 @@
 whoami
 
 
-
-codinome ............ rafa dev função ............... desenvolvedor / operador de segurança ofensiva linguagens ........... python, node.js, php foco .................. red team, exploração de vulnerabilidades, ferramentas arma principal ....... kali linux mentalidade .......... não confio em nada que ainda não testei quebrar estado atual .......... [em andamento] sempre um passo além do firewall
-
+codinome ............ rafa dev
+função ............... desenvolvedor / operador de segurança ofensiva
+linguagens ........... python, node.js, php
+foco .................. red team, exploração de vulnerabilidades, ferramentas
+arma principal ....... kali linux
+mentalidade .......... não confio em nada que ainda não testei quebrar
+estado atual .......... [em andamento] sempre um passo além do firewall
 <br>
 
 cat arsenal.txt
