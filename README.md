@@ -16,21 +16,21 @@
 whoami
 
 codinome ............ rafa dev
-função .............. desenvolvedor / operador de segurança ofensiva
-linguagens .......... python, node.js, php
-foco ................ red team, exploração de vulnerabilidades, ferramentas
-arma principal ...... kali linux
-mentalidade ......... não confio em nada que ainda não testei quebrar
-estado atual ........ [em andamento] sempre um passo além do firewall
+função ............... desenvolvedor / operador de segurança ofensiva
+linguagens ........... python, node.js, php
+foco .................. red team, exploração de vulnerabilidades, ferramentas
+arma principal ....... kali linux
+mentalidade .......... não confio em nada que ainda não testei quebrar
+estado atual .......... [em andamento] sempre um passo além do firewall
 
 <br>cat arsenal.txt
 
 linguagens / runtime ....... python, node.js, php, javascript, bash
-frameworks .................. flask, express, laravel, django
-bancos de dados ............. mysql, postgresql, mongodb
-ferramentas ................. kali linux, burp suite, metasploit,
-                              wireshark, nmap, aircrack-ng,
-                              john the ripper, git, vs code, postman
+frameworks ................... flask, express, laravel, django
+bancos de dados .............. mysql, postgresql, mongodb
+ferramentas ................... kali linux, burp suite, metasploit,
+                                  wireshark, nmap, aircrack-ng,
+                                  john the ripper, git, vs code, postman
 
 <br><div align="center"><img src="https://readme-typing-svg.demolab.com?font=Courier+New&size=16&duration=1800&pause=400&color=FF3333&background=00000000&center=true&vCenter=true&width=900&multiline=true&lines=%5B00%3A00%3A01%5D+scanning+network+range...;%5B00%3A00%3A04%5D+host+discovered%3A+192.168.0.0%2F24;%5B00%3A00%3A07%5D+enumerating+open+ports...;%5B00%3A00%3A11%5D+vulnerability+found%3A+unpatched+service;%5B00%3A00%3A14%5D+injecting+payload...;%5B00%3A00%3A18%5D+privilege+escalation%3A+success;%5B00%3A00%3A21%5D+access+level%3A+root;%5B00%3A00%3A25%5D+erasing+traces...;%5B00%3A00%3A29%5D+scanning+for+next+target..." alt="logs" /></div><div align="center"><img src="https://raw.githubusercontent.com/rafaelRed/rafaelRed/main/assets/target-alert.svg?v=2" width="100%" alt="alert" /></div><div align="center"><img src="https://readme-typing-svg.demolab.com?font=Courier+New&size=16&duration=2000&pause=500&color=888888&background=00000000&center=true&vCenter=true&width=900&lines=...just+kidding.+relax.;connection+idle.;no+logs+were+harmed+in+the+making+of+this+profile." alt="logs2" /></div><br>tail -f missao.log
 
