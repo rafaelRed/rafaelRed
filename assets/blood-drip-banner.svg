@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="340" viewBox="0 0 1000 340" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#000000"/>
+    <stop offset="60%" stop-color="#0a0000"/>
+    <stop offset="100%" stop-color="#1a0000"/>
+  </linearGradient>
+  <linearGradient id="blood" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#5a0000"/>
+    <stop offset="50%" stop-color="#a30000"/>
+    <stop offset="100%" stop-color="#e00000"/>
+  </linearGradient>
+</defs>
+
+<style>
+  .drip { fill: url(#blood); animation-timing-function: ease-in; animation-iteration-count: infinite; }
+  @keyframes fall {
+    0%   { transform: translateY(-40px); opacity: 0; }
+    10%  { opacity: 1; }
+    80%  { opacity: 1; }
+    100% { transform: translateY(300px); opacity: 0; }
+  }
+  .drip { animation-name: fall; }
+  @keyframes flicker {
+    0%, 100% { opacity: 1; }
+    40%      { opacity: 0.55; }
+    55%      { opacity: 0.9; }
+    72%      { opacity: 0.35; }
+  }
+  .title { animation-name: flicker; animation-iteration-count: infinite; }
+  @keyframes poolgrow {
+    0%   { rx: 0;   opacity: 0; }
+    12%  { opacity: 1; }
+    100% { rx: 430; opacity: 1; }
+  }
+  .pool { animation-name: poolgrow; animation-fill-mode: forwards; }
+</style>
+
+<rect width="1000" height="340" fill="url(#bgGrad)"/>
+
+<g>
+  <path class="drip" style="animation-duration:2.1s;animation-delay:0s"   d="M28,-20  c-6,10 -6,22 0,30 c6,-8 6,-20 0,-30 z"/>
+  <path class="drip" style="animation-duration:2.6s;animation-delay:0.5s" d="M90,-40  c-5,9 -5,19 0,26 c5,-7 5,-17 0,-26 z"/>
+  <path class="drip" style="animation-duration:1.8s;animation-delay:1.1s" d="M150,-15 c-7,11 -7,24 0,33 c7,-9 7,-22 0,-33 z"/>
+  <path class="drip" style="animation-duration:3.0s;animation-delay:0.2s" d="M215,-50 c-5,8 -5,18 0,24 c5,-6 5,-16 0,-24 z"/>
+  <path class="drip" style="animation-duration:2.3s;animation-delay:1.6s" d="M270,-25 c-6,10 -6,21 0,29 c6,-8 6,-19 0,-29 z"/>
+  <path class="drip" style="animation-duration:2.8s;animation-delay:0.8s" d="M330,-35 c-6,9 -6,20 0,27 c6,-7 6,-18 0,-27 z"/>
+  <path class="drip" style="animation-duration:1.9s;animation-delay:2.1s" d="M395,-15 c-7,11 -7,23 0,32 c7,-9 7,-21 0,-32 z"/>
+  <path class="drip" style="animation-duration:2.7s;animation-delay:0.3s" d="M640,-45 c-5,8 -5,18 0,25 c5,-7 5,-17 0,-25 z"/>
+  <path class="drip" style="animation-duration:2.2s;animation-delay:1.3s" d="M700,-20 c-6,10 -6,22 0,30 c6,-8 6,-20 0,-30 z"/>
+  <path class="drip" style="animation-duration:2.5s;animation-delay:1.8s" d="M760,-30 c-6,9 -6,20 0,27 c6,-7 6,-18 0,-27 z"/>
+  <path class="drip" style="animation-duration:1.7s;animation-delay:0.6s" d="M825,-10 c-7,11 -7,24 0,33 c7,-9 7,-22 0,-33 z"/>
+  <path class="drip" style="animation-duration:2.9s;animation-delay:0.1s" d="M885,-40 c-5,9 -5,19 0,26 c5,-7 5,-17 0,-26 z"/>
+  <path class="drip" style="animation-duration:2.4s;animation-delay:1.5s" d="M945,-25 c-6,10 -6,21 0,29 c6,-8 6,-19 0,-29 z"/>
+</g>
+
+<text class="title" x="500" y="176" font-family="Courier New, monospace" font-size="80" font-weight="bold" fill="#ff2222" text-anchor="middle" style="animation-duration:2.8s">RAFA DEV</text>
+
+<text x="500" y="216" font-family="Courier New, monospace" font-size="17" fill="#ff5555" text-anchor="middle" letter-spacing="2" class="title" style="animation-duration:1.5s">SYSTEM COMPROMISED - ROOT ACCESS GRANTED</text>
+
+<ellipse class="pool" cx="500" cy="336" ry="8" fill="#6a0000" style="animation-duration:6s"/>
+</svg>
