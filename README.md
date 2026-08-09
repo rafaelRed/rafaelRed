@@ -15,7 +15,7 @@
 whoami
 
 
-<br>codinome ............ rafa dev<br>
+> <br>codinome ............ rafa dev<br>
 <br>função ............... desenvolvedor / operador de segurança ofensiva<br>
 <br>linguagens ........... python, node.js, php<br>
 <br>foco .................. red team, exploração de <br><br>vulnerabilidades, ferramentas<br>
