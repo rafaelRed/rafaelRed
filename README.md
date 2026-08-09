@@ -28,7 +28,8 @@ cat arsenal.txt
 
 
 
-> ```linguagens / runtime ....... python, node.js, php, javascript, bash frameworks ................... flask,``` express, laravel, django bancos de dados .............. mysql, postgresql, mongodb ferramentas ................... kali linux, burp suite, metasploit, wireshark, nmap, aircrack-ng, john the ripper, git, vs code, postman
+> ```linguagens / runtime ....... python, node.js, php, javascript, bash```
+> frameworks ................... flask, express, laravel, django bancos de dados .............. mysql, postgresql, mongodb ferramentas ................... kali linux, burp suite, metasploit, wireshark, nmap, aircrack-ng, john the ripper, git, vs code, postman
 
 <br>
 
